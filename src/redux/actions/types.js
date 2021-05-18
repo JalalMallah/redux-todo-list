@@ -1,2 +1,3 @@
-export const ACTION_ONE = 'ACTION_ONE';
-export const ACTION_TWO = 'ACTION_TWO';
+export const ADD_TODO = 'ADD_TODO';
+export const FETCH_TODOS = 'FETCH_TODOS';
+export const REMOVE_TODO = 'REMOVE_TODO';

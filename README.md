@@ -1,10 +1,13 @@
-# Redux Boilerplate 🚀
+# Todo List with Redux
 
-> This is a basic Redux boilerplate created by myself for future reference. I personally prefer to keep all the redux-related files and folders (store, actions, reducers) together in a single folder called 'redux' inside the 'src' folder. This way the 'src' folder remains neat and unbloated. The store includes an implemented redux dev tools enhancer so that it's possible to use the redux browser extension out-of-the-box. The boilerplate also includes some very simple and basic global CSS styling.
+[Live Preview](https://jalalmallah.github.io/API-Hub/) 🚀
 
-### Installed Packages
+> This is a playground project that I created while learning Redux. It's a simple todo list application which fetches 5 todo items from JSONPlaceholder API on page load and also enables the User to add his own todo items and also to remove any of them from the todo list. It was necessary to implement redux-thunk in order to make async API calls to fetch the data.
+
+### Tech Stack
 
 - React
-- Redux
-- React-Redux
-- Node-Sass
+- Redux (with redux-thunk)
+- CSS Modules
+- JSONPlaceholder API
+- Netlify (Deployment)
